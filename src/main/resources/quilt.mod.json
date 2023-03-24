@@ -1,14 +1,14 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "com.example",
-		"id": "example_mod",
+		"group": "io.github.nl32",
+		"id": "township",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
+			"name": "Township",
 			"description": "A short description of your mod.",
 			"contributors": {
-				"Your name here": "Owner"
+				"starmont": "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.nl32.township.Township"
 		},
 		"depends": [
 			{
@@ -35,6 +35,5 @@
 				"versions": ">=1.19.3"
 			}
 		]
-	},
-	"mixin": "example_mod.mixins.json"
+	}
 }
